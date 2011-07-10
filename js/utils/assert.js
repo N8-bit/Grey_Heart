@@ -2,7 +2,7 @@
 assertion library for ensuring values in things like constructors, etc.
 */
 
-assert = function(condition, message){
+game.assert = function(condition, message){
     if(!condition){
         throw new game.AssertionError(message);
     }

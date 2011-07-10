@@ -3,7 +3,7 @@
 */
 
 // load up our includes for the game
-yepnope("js/include.js")
+yepnope("js/utils/include.js")
 
 // boostrapper,
 // gh as a shortcut to the game tree
