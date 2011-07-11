@@ -6,16 +6,15 @@
         <title>Grey Heart</title>
         
         <!-- include libraries for game development ease -->
-        <script type="text/javascript" src="libraries/Prototype.js"></script>
         <script type="text/javascript" src="libraries/Underscore.js"></script>
         <script type="text/javascript" src="libraries/Backbone.js"></script>
-        <script type="text/javascript" src="libraries/YepNope.js"></script>
+        <script type="text/javascript" src="libraries/Prototype.js"></script>
         
         <!-- include the game starting script -->
-        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/includes.js"></script>
     </head>
 
-    <body onload="main()">
+    <body onload="(new game.GH()).main()">
         <canvas id="canvas" width="640" height="480" style="border: none"></canvas>
     </body>
     
